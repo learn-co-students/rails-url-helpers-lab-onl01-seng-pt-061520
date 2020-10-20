@@ -5,6 +5,17 @@ class StudentsController < ApplicationController
     @students = Student.all
   end
 
+  def activate
+    student = Student.find(params[:id])
+    if student.active == true
+      student.update(active: false)
+    else
+      student.update(active: true)
+    end
+
+    redirect_to student
+  end
+
   def show
   end
 
