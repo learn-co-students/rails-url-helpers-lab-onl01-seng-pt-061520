@@ -34,6 +34,7 @@ In this lab you will be building out the Student management dashboard for the Fl
 
 ## Resources
 
+
 - [Reading](https://github.com/learn-co-curriculum/rails-url-helpers-readme)
 
 - [URL Helper Documentation](http://api.rubyonrails.org/classes/ActionView/Helpers/UrlHelper.html)
